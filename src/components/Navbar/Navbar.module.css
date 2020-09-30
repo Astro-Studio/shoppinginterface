@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  background: rgba(30, 29, 87, 0.418);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar__logo {
+  font-size: 4vmin;
+  font-family: "Kanit", sans-serif;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.navbar__logo:hover {
+  opacity: 0.75;
+}
+
+.navbar__cart {
+  width: 50px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar__cart:hover {
+  opacity: 0.75;
+}
+
+.cart__counter {
+  height: 40px;
+  width: 40px;
+  margin-left: 0.5vmin;
+  margin-bottom: 15px;
+  color: rgb(241, 173, 173);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}

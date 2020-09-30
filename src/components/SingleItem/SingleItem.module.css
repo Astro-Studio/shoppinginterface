@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleItem {
+  width: 90vmin;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleItem__image {
+  width: 40vmin;
+  object-fit: contain;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.singleItem__details {
+  padding: 1rem;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+}
+
+.details__title,
+.details__price {
+  font-size: 3vmin;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin: 10px;
+}
+
+.details__description {
+  font-size: 2vmin;
+  font-family: "Kanit", sans-serif;
+  margin: 10px;
+}
+
+.details__addBtn {
+  width: 30vmin;
+  padding: 10px 17px;
+  background: var(--secondary-color);
+  color: var(--light-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 3vmin;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease;
+  margin: 10px;
+}
+
+.details__addBtn:hover {
+  opacity: 0.75;
+}

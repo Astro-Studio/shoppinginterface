@@ -1,0 +1,76 @@
+.product {
+  width: 90vmin;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.product__image {
+  width: 30vmin;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.product__details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details__title {
+  font-size: 2vmin;
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-family: "Kanit", sans-serif;
+}
+
+.details__desc {
+  font-size: 2vmin;
+  color: var(--secondary-color);
+  margin: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.details__price {
+  font-size: 3vmin;
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-family: "Kanit", sans-serif;
+}
+
+.product__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.buttons__btn {
+  width: 20vmin;
+  height: 10vmin;
+  padding: 0.5rem;
+  margin: 10px;
+  font-size: 2vmin;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  color: rgb(30, 29, 87);
+}
+
+.buttons__btn:hover {
+  opacity: 0.7;
+}
